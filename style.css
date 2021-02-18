@@ -1,0 +1,20 @@
+/* styles applied to all the links in the navbar */
+nav{
+    background-color:blue;
+}
+
+
+/* styles applied to each individual link in the navbar */
+a {
+    font-size: 24px;
+    color:crimson;
+    background-color: antiquewhite;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+
+/* styles only applied when hover over the link */
+a:hover{
+
+
+}
