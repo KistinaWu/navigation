@@ -1,8 +1,12 @@
 /* styles applied to all the links in the navbar */
 nav{
-    background-color:blue;
+    background-color:chartreuse;
+    position:sticky;
+    height:50px;
+    margin-top:20px;
+    padding-top: 20px;
+    text-align:center;
 }
-
 
 /* styles applied to each individual link in the navbar */
 a {
@@ -11,10 +15,18 @@ a {
     background-color: antiquewhite;
     text-decoration:none;
     text-transform: capitalize;
+    border:2px solid blue;
+   
+    margin-right: 30px;
+    padding:10px;
+   
+   
 }
 
 /* styles only applied when hover over the link */
 a:hover{
-
-
+    background-color: azure;
+    color:black;
+    font-size: 30px;
+    border:2px solid red;
 }
